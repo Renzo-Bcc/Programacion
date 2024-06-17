@@ -1,0 +1,11 @@
+/*
+h1    <--> Selector, elemento al que le aplicamos los efectos
+color <--> Propiedad, efecto o cambio que le queremos dar al elemento
+blue  <--> Valor otorgado a la propiedad
+*/
+h1 {
+    color: blueviolet;
+}
+p {
+    color: rgb(42, 128, 82);
+}

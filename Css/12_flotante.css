@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: #f2f2f2;
+    font-family: 'Times New Roman', Times, serif;
+}
+.caja-padre{
+    background: #074c08;
+    width: 800px;
+    margin: 10px;
+    overflow: hidden;
+}
+.caja{
+    width: 200px;
+    color: #770d0d;
+    font-size: 35px;
+    height: 200px;
+    background: #0e6ba8;
+    margin:20px;
+}
+.uno{ float: left; }
+.dos{ float: left; }
+.tres{ float: left; }
+/* .clear { clear: both;} */
+.articulo{
+    width: 800px;
+    height: 500px;
+    background: #ccc;
+    margin: 10px;
+}
+.articulo img{
+    margin: 30px;
+    padding: 20px;
+    float: left;
+}
+.articulo p{
+    float: left;
+}
+img{
+    border: solid 3px rgb(4, 26, 46);
+}
+p{
+    margin: 5px;
+    text-align: justify;
+}

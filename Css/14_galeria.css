@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: #000500;
+}
+h1{
+    font-size: 40px;
+    color:#1fa4b5;
+    text-align: center;
+    font-style: italic;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+.galeria{
+    width: 100%;
+}
+.galeria img{
+    vertical-align: top;
+    width: 400px;
+    margin: 20px;
+    padding: 10px;
+    opacity: 0.5;
+    border: 2px solid #484848;
+    /* border-radius: 20px; */
+}
+.galeria img:hover{
+    border: 1px solid #fff;
+    opacity: 1;
+}
+.img{
+    width: 450px;
+    height: 400px;
+    margin: 10px;
+    display: inline-block;
+}
+p{
+    color: #fff;
+    text-align: center;
+    font-style: italic;
+    font-size: 20px;
+    text-transform: capitalize;
+}

@@ -1,0 +1,138 @@
+@font-face{
+    font-family: "Satisfy-Regular";
+    src: url('/Fonts/Satisfy-Regular.ttf');
+}
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+    background: #196474;
+    font-family: "Satisfy-Regular";
+    font-size: 20px;
+    text-align: center;
+}
+.contenedor{
+    width: 90%;
+    max-width: 1000px;
+    margin: 1rem auto;
+    overflow: hidden;
+}
+header{ background: #fff; }
+header nav{ width: 100%; }
+header nav ul{
+    width: 100%;
+    overflow: hidden;
+    list-style: none;
+}
+header nav ul li{
+    float: left;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: #000;
+    padding: 0.75rem 1rem;
+    display: inline-block;
+}
+header nav ul li a:hover{
+    background: #196474;
+    color: #fff;
+}
+.main{
+    width: 70%;
+    background: #fff;
+    float: left;
+}
+.main .imagen{
+    background: #196474;
+    width: 100%;
+}
+.main .imagen img{
+    width: 100%;
+    vertical-align: top;
+    border-radius: 40px;
+}
+.main .post{padding: 2rem;}
+.main .post article h2{
+    margin-bottom: 1rem;
+    color:#424242;
+}
+.main .post article p{
+    margin-bottom: 1.5rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+.main article .video{
+    width: 35rem;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+/*
+.main article .video iframe{
+    width: 100%;
+}
+*/
+aside{
+    width: 30%;
+    background: #161f26;
+    padding: 1rem;
+    color: #fff;
+    float: left;
+}
+aside .widget{margin-bottom: 1rem;}
+aside .widget .titulo{
+    color: #ff8000;
+    border-bottom: 1px solid #ff8000;
+    margin-bottom: 1.15rem;
+}
+aside .widget ul{list-style: none;}
+aside .widget ul li{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 0.7rem 0;
+    text-align: justify;
+}
+aside .widget ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+aside .widget ul li a:hover{
+    color: #ff8000;
+}
+aside .widget p{
+    line-height: 1.36rem;
+    text-align: 0.8rem;
+    font-size: 1rem;
+}
+p{text-align: justify;}
+footer{
+    width: 70%;
+    /* overflow: hidden; */
+    clear: both;
+    background: #000;
+    color: #fff;
+    padding: 0.75rem;
+}
+@media screen and (max-width:1060px) {
+   body{
+    background: #000;
+    color: #098274;
+   }
+   .main{
+    width: 100%;
+   }
+   .main article .video{
+    max-width: 100%;   
+   }
+   aside{
+    width: 100%;
+   }
+   footer{
+    width: 100%;
+    background: #929b3c;
+    color: #0a283e;
+   }
+}

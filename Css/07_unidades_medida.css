@@ -1,0 +1,43 @@
+/*
+Unidades Relativas
+    px  - Pixel
+    em  - Relativa al tamaño de fuente que tenga el elemento padre o el mas cercano
+    rem - Relativa al tamaño de fuente especificado en el body
+    %   - Porcentaje
+
+Unidades Absolutas
+Estas medidas nunca las vas a usar en diseño web
+cm  - Centímetros
+mm  - Milimétros
+in  - Pulgadas Americanas (1 pulgada = 0.3937007874015748 inches)
+pt  - Points, un punto equivale a 1/72 pulgadas
+pc  - Picas, una pica es igual a 12 puntos
+
+Ventajas y desventajas de utilizar Unidades Relativas vs Absolutas:
+- Ventaja de las Unidades Relativas: Flexibilidad, se adaptan bien a dispositivos móviles, pueden ser reescalados sin perder la proporcion
+*/
+body{
+    font-size: 16px;
+}
+p{
+    font-size: 1.5em;
+}
+.contenedor-padre{
+    font-size: 30px;
+}
+.hijo{
+    width: 20em;
+    height: 20em;
+    background-color: rgb(7, 44, 56);
+    color: darkcyan;
+}
+/*
+hay 17 palbas clave que podemos usar:
+aqua, black, blue, fuchsia, gray, green, navy, olive, orange, purple, red, teal, white y yellow.
+RGB decimal: rgb(215,  135, 15)
+RGB porcentual: rgb(84%, 53%, 7%)
+RGB hexadecimal: #d3870f
+RGBA con transparencia: rgba(215,  135, 15, 0.5)
+HSL: hsl(120, 100%, 50%)
+HSLA con transparencia: hsla(120, 100%, 50%, .5)
+*/

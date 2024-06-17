@@ -1,0 +1,34 @@
+body{
+    background: #f2f2;
+    font-family: 'Times New Roman', Times, serif;
+}
+h1, p, div{
+    background: #5e6b84;
+    padding: 10px;
+    width: 500px;
+    display:inline-block;
+}
+a{
+    color:#58dcde;
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin: 30px;
+    height: 40px;
+    border-radius: 8px;
+    padding: 10px;
+}
+/*
+Algunos elementos "inline"
+    a, span, img, b, i, small, cite, code,
+    em, strong, br, script, buttom, input,
+    label, select, textarea.
+*/
+/*
+Algunos elementos "block"
+  div, article, aside, section, header, footer, table, p,
+  video, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd,
+  figure, figcaption, fieldset, form, button, textarea, iframe.
+*/

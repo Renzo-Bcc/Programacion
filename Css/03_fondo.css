@@ -1,0 +1,41 @@
+/* Valores que podemos usar en las propiedades:
+background: url('https://www.solofondos.com/wp-content/uploads/2017/07/ultraHDwallpapers.jpg');
+background-repeat: repeat | no-repeat | repeat-x | repeat-y;
+background-size: auto | 100px 100px | 100% | cover | contain;
+
+Explicacion de los valores de background size:
+auto
+ancho y alto
+porcentaje del contenedor (viewport)
+cubrir todo el contenedor (cover)
+ajustar al tamaño del contenedor (contain)
+
+background-attachment: scroll | fixed;
+*/
+/* Propiedad position */
+/* El valor static es por defecto, se posiciona como si no hubiera ninguna propiedad position aplicada. */
+/* relative se mueve con respecto a su elemento padre. */
+/* absolute se quita del flujo normal del documento y se coloca relativa al primer elemento que tiene una posición absoluta */
+/* https://tinypng.com/ comprime imagenes de fondo */
+
+body {
+    background: url('https://www.solofondos.com/wp-content/uploads/2017/07/ultraHDwallpapers.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.fondo {
+    width: 620px;
+    height: 320px;
+    background: url('https://c1.cutewallpaper.org/thumb/645/kirito-sao-wallpaper-1920x1080-full-hd-desktop-fondos-de-escritorio-sword-art-online-desktop-full-hd-kirito-background-photo-anime-pekkmm.jpg.webp') #000;
+    background-repeat: no-repeat;
+    background-size: 600px 300px;
+    background-position: center center;
+    border: solid 3px rgb(19, 95, 165);
+}
+
+article {
+    color: rgb(2, 0, 7);
+}

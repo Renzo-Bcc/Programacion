@@ -1,1 +1,2 @@
 # Programacion
+Soy un futuro Ingeniero de Sistemas, aprendo Python y poco a poco entiendo su logica a traves de la guia de Mouredev. Tambien aprendo programacion Html, Css con Falcon Masters (Subo los archivos desde el sevidor de un amigo)

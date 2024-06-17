@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1;
+    color: #222;
+}
+.contenedor{
+    width: 90%;
+    height: 500px;
+    max-width: 700px;
+    background: #212d40;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+.caja{
+    width: 100px;
+    height: 100px;
+    background: #f79256;
+    text-align: center;
+    margin: 20px;
+    padding:20px;
+    font-size: 40px;
+    color: #fff;
+}
+/*
+Flexbox se divide en 2 grupos de propiedades:
+------------------------------------
+Propiedades del contenedor (padre)
+------------------------------------
+display:flex; 
+    Permite hablitar los elementos que sean flexibles.
+flex-direction:
+    row|row-reverse|column|column-reverse;
+flex-wrap:
+    wrap|no-wrap|wrap-reverse;
+flex-flow:<flex-direction>||flex-wrap;
+    Es un atajo de flex-direction y flex-wrap.
+justify-content:
+    flex-start|flex-end|center|space-between|space-around|space-evenly;
+align-items:
+    flex-start|flex-end|center|baseline|stretch;
+align-content:
+    flex-start|flex-end|center|stretch|space-between|space-around;
+    IMPORTANTE: Esta propiedad solo funciona cuando hay mas de una linea de elementos
+------------------------------------
+Propiedades de los elementos (hijos)
+------------------------------------
+order
+flex-grow:
+Acepta a un numero que servira de proporcion para hacer crecer el elemento en relacion a los otros
+Si todos los elementos tienen flex-grow:1, el elemento crecera proporcionalmente a los otros elementos
+flex-shrink
+Define la habilidad de un elemento para hacerse mas pequeño
+Por defecto todos pueden hacer que se achiquen, pero si se quiere que no se achiquen se debe poner flex-shrink:0
+flex-basis
+Nos permite definir el tamaño inicial de un elemento
+Por defecto todos los elementos tienen flex-basis:auto
+flex
+Es un atajo de flex-grow, flex-shrink y flex-basis
+align-self
+*/

@@ -1,0 +1,30 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: Arial, sans-serif;
+    line-height: 22px;
+    font-size: 20px;
+}
+.caja{
+    width: 15rem;
+    height: 15rem;
+    background: #061c53;
+    margin: 1rem;
+    padding: 1rem;
+    border: 2px solid  black;
+    display: inline-block;
+    /*
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    overflow: hidden;
+    */
+}
+.caja p{
+    background: #eee5e9;
+}

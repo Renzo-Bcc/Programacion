@@ -1,0 +1,19 @@
+@font-face{
+    font-family: "Satisfy-Regular";
+    src: url('/Fonts/Satisfy-Regular.ttf');
+}
+body{
+    font-family: "Satisfy-Regular" !important;
+}
+h1{
+    font-family: "Orbitron";
+    font-weight: normal;
+    font-size: 30px;
+    text-align: center;
+}
+p{
+   text-align: justify;
+   justify-content: center;
+   margin: 20px;
+   padding: 20px;
+}

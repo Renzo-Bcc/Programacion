@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: #f2f2f2;
+}
+.caja{
+    width: 200px;
+    height: 200px;
+    background: #0e6ba8;
+    margin: 20px;
+    float: right;
+}
+/*
+.caja-padre{
+    margin: 20px;
+    backgrond: #2e294e;
+    width: 500px;
+    height: 500px;
+    position: relative;
+}
+*/
+.posicionada{
+    background: #6695e8;
+    /*
+    position: relative;
+    top: 0;
+    right: 0;
+    left: 200px;
+    bottom: 50px;
+    */
+}
+/* Tipos de Posiionamiento:
+Normal(position:static) Por defecto los elementos se posicionan estaticamente, es decir sin afectar su contenido
+Absolute (position:absolute) Nos permite posicionar un elemento y moverlo desde su lugar original
+Fixed (position:fixed) Nos permite posicionar un elemento en la ventana del navegador, fijando el elemento en una esquina o en el centro, sin que afecten a los demás en la pantalla.
+Relative (position:relative) Nos permite desplazar las cajas todo lo posible hacia la derecha o izquierda
+*/
